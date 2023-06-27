@@ -1,6 +1,6 @@
-package com.intela.dpringjwtauth.Repositories;
+package com.intela.springjwtauth.repositories;
 
-import com.intela.dpringjwtauth.models.User;
+import com.intela.springjwtauth.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

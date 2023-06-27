@@ -1,4 +1,4 @@
-package com.intela.dpringjwtauth;
+package com.intela.springjwtauth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

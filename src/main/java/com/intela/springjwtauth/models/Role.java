@@ -1,4 +1,4 @@
-package com.intela.dpringjwtauth.models;
+package com.intela.springjwtauth.models;
 
 public enum Role {
     USER,
