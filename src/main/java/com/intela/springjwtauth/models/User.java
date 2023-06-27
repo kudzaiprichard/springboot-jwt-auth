@@ -18,7 +18,7 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @Table(name = "Users")
-public abstract class User implements UserDetails {
+public class User implements UserDetails {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -26,6 +26,7 @@ public abstract class User implements UserDetails {
     private String firstName;
     private String lastName;
     private String email;
+    private String password;
 
     @Enumerated(EnumType.STRING)
     private Role role;
